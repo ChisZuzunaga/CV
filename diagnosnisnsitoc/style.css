@@ -1,0 +1,280 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80vh;
+}
+
+.contenido{
+    outline: 3px solid rgb(0, 0, 0);
+    padding: 1vh;
+    width: 80vh;
+    height: 125vh;
+}
+
+.izquierda{
+    padding: 2vh;
+    width: 40%;
+    height: 100vh;
+}
+
+.derecha{
+    padding: 2vh;
+    height: 100vh;
+    width: 60%;
+}
+
+.intr{
+    height: 20vh;
+    width: 100%;
+}
+
+.division{
+    display: flex;
+    height: 80vh;
+}
+
+#f-perfil{
+    width: 28vh;
+    height: 21vh;
+    border-radius: 5px;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.perfil-info{
+    height: 25vh;
+}
+
+.habilidades{
+    height: 17vh;
+}
+
+.idiomas{
+    height: 12vh;
+}
+
+#profile-pic{
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vh;
+}
+
+.pfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pfil-h{
+    display: flex;
+    align-items: center;
+}
+
+.iz{
+    width: 45%;
+}
+
+.stars{
+    width: 55%;
+}
+
+#neo4j{
+    width: 2vh;
+    height: 2vh;
+    margin-left: 0.3vh;
+}
+
+#star{
+    width: 1.9vh;
+}
+
+.idiomas{
+}
+
+#ingles{
+    margin-left: 2vh;
+}
+
+.linea {
+    margin-top: 0px;
+    border-top: 1px solid rgb(0, 0, 0);
+    max-width: 29vh;
+    margin-bottom: 1vh;
+}
+
+.ff{
+    display: flex;
+    padding-top: 2vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20%;
+}
+.pp {
+    width: 80%;
+    padding-top: 2vh;
+    font-size: 2vh;
+}
+
+#tit{
+}
+
+.divs{
+    display: flex;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="asunto"],
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #3a3a3a;
+}
+
+#open-form-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#open-form-btn:hover {
+    background-color: #3a3a3a;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #3a3a3a;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25vh;
+}
